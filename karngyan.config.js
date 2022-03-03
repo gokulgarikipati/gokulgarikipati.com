@@ -1,10 +1,10 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
+  name: 'gokul garikipati',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
   image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  email: 'ggokulchowdary@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
@@ -19,32 +19,32 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: true
+    enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    //github: 'gokulgarikipati',
+    linkedin: 'gokulgarikipati',
+    facebook: 'gokulgarikipati',
+    twitter: 'GokulGarikipati',
+    instagram: 'gokulgarikipati',
+    //codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: true,
+    enabled: false,
     url: 'https://www.buymeacoffee.com/karngyan'
   },
   projects: {
     enabled: true,
   },
   blog: {
-    enabled: true,
+    enabled: false,
   },
   resume: {
     enabled: true,
     pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
   },
   uses: {
-    enabled: true,
+    enabled: false,
     meta: [
       {title: 'OS', value: 'macOS Catalina'},
       {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
@@ -58,10 +58,7 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
-      { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
+      { name: 'Genisys Group', src: '/images/genisys.svg', url: 'https://genisys-group.com/' }
     ]
   },
   recommendations: {
