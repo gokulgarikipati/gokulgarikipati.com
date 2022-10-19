@@ -82,7 +82,7 @@ const nuxtConfig = {
       { property: 'twitter:image', content: `${config.image}` },
     ],
     link: [
-      { rel: 'icon', type: 'image/vnd.microsoft.icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/vnd.microsoft.icon', href: '/apple-touch-icon.png' },
       { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'}
     ],
   },
@@ -129,7 +129,7 @@ const nuxtConfig = {
 
   pwa: {
     icon: {
-      fileName: 'favicon.ico'
+      fileName: '/favicon.ico'
     },
     meta: {
       name: config.domain,
