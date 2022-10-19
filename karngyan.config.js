@@ -101,7 +101,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
+        description: 'Hello, I’m Gokul. I am a software engineer who loves to learn and explore the world. I have 3+ years of experience as an SDE in the software industry and am currently pursuing a M.S. in Computer Science at SJSU. I love staying active, playing video games, reading tech blogs, exercising, and tinker with side projects every now n then.',
         words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
       },
       githubCalendar: {
