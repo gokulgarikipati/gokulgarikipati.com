@@ -22,7 +22,7 @@ export default {
     enabled: false
   },
   social: {
-    //github: 'gokulgarikipati',
+    github: 'kaushalkr27',
     linkedin: 'gokulgarikipati',
     facebook: 'gokulgarikipati',
     twitter: 'GokulGarikipati',
@@ -41,7 +41,7 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/Gokul_Resume_Dark.pdf' // add files in static folder
   },
   uses: {
     enabled: false,
@@ -58,11 +58,12 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'Genisys Group', src: '/images/genisys.svg', url: 'https://genisys-group.com/' }
+      { name: 'Genisys Group', src: '/images/genisys.svg', url: 'https://genisys-group.com/' },
+      { name: 'Fannie Mae', src: '/images/fanniemae.png', url: 'https://www.fanniemae.com/' }
     ]
   },
   recommendations: {
-    enabled: true,
+    enabled: false,
     meta: [
       { name: 'Varun Jain', designation: 'Founder, SendX & SendPost', image: '/images/varun.jpeg', linkedin: 'https://www.linkedin.com/in/varun-jain-582b0215/', content: 'Gyan interned with SendX and SendPost for around 6 months. He is a very strong full-stack engineer who can create pixel perfect frontend while being able to work on backend pieces sending millions of emails per day. He is a quick learner, a great team player and, has a very strong work ethic. You can rely on him that things will be done with utmost quality. He also has pretty good product instincts and can think from the user\'s perspective.' },
       { name: 'Gaurav Sen', designation: 'Founder, InterviewReady', image: '/images/gaurav.jpeg', linkedin: 'https://www.linkedin.com/in/gkcs/', content: 'Karn is an extraordinarily talented, diligent and foresighted individual. He is gifted at building products from paper to code, and has a knack of finding efficient solutions to complex problems. In my experience, I have rarely seen such a mixture of talent and passion put together. At InterviewReady, Karn exceeded our expectations. If you are considering working with him: congratulations, you are going to have a great time!' },
@@ -104,7 +105,7 @@ export default {
         words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
       },
       githubCalendar: {
-        header: 'contributions',
+        header: '',
         subtext: 'github calendar heatmap'
       },
       blog: {
